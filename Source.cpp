@@ -154,7 +154,7 @@ void MakePurchase(int& iTotalextraSmall,int& iTotalSmall, int& iTotalMedium,
     
     //If the purchased surfboard's size is xxxsmall, then add its quantity to the total of xxxsmall surfboards.
 
-     if (tolower(size) == 'e')
+     if (tolower(size) == 'x')
      {
      iTotalextraSmall = iTotalextraSmall + quantity;
      }
